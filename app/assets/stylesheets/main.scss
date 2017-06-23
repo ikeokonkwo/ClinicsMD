@@ -2264,7 +2264,7 @@ strong {
 a {
     background-color: transparent;
     -webkit-text-decoration-skip: objects;
-    color: #7CC4CF;
+    color: #4fcbde;
     cursor: pointer
 }
 
@@ -2720,7 +2720,7 @@ select.wpforms-error:focus {
     transition: background-color .25s ease-out, color .25s ease-out;
     text-align: center;
     cursor: pointer;
-    background-color: #FF8400;
+    background-color: #4fcbde;
     color: #fff
 }
 
@@ -2736,7 +2736,7 @@ select.wpforms-error:focus {
 .page-header-nav>ul>li.page-header-nav-button--alt a:hover,
 .wptheme-edit-link .icon:focus,
 .wptheme-edit-link .icon:hover {
-    background-color: #d97000;
+    background-color: #c5d0e2;
     color: #fff
 }
 
@@ -2900,8 +2900,8 @@ select.wpforms-error:focus {
     float: none;
     margin-left: 0
 }
-
 .button,
+
 .mobilemenu>ul>li.page-header-nav-button a,
 .mobilemenu>ul>li.page-header-nav-button--alt a,
 .page-header-nav>ul>li.page-header-nav-button a,
@@ -2919,8 +2919,8 @@ select.wpforms-error:focus {
 .mobilemenu>ul>li.page-header-nav-button--alt a,
 .page-header-nav>ul>li.page-header-nav-button--alt a {
     background: 0 0;
-    color: #7CC4CF;
-    box-shadow: inset 0 0 0 1px #7CC4CF
+    color: #4fcbde;
+    box-shadow: inset 0 0 0 1px #4fcbde
 }
 
 .button--alt:hover,
@@ -2973,13 +2973,13 @@ select.wpforms-error:focus {
 
 .downloadbtn,
 .downloadbtn:focus {
-    background: #7CC4CF;
+    background: #4fcbde;
     color: #fff
 }
 
 .downloadbtn:before,
 .downloadbtn:focus:before {
-    background: #7CC4CF
+    background: #4fcbde
 }
 
 .downloadbtn:hover,
@@ -3079,7 +3079,7 @@ select.wpforms-error:focus {
 
 .page-header-nav>ul>li:hover:not(.page-header-nav-button):not(.page-header-nav-button--alt)>a,
 .page-header-nav>ul>li:not(.page-header-nav-button):not(.page-header-nav-button--alt)>a:hover {
-    color: #FF8400
+    color: #4fcbde
 }
 
 .page-header-nav>ul>li:not(.page-header-nav-button):not(.page-header-nav-button--alt)>a+span {
@@ -3106,7 +3106,7 @@ select.wpforms-error:focus {
     content: '';
     border-top-width: 0;
     border-bottom-style: solid;
-    border-color: transparent transparent #FF8400;
+    border-color: transparent transparent #4fcbde;
     border-left-width: 13px;
     border-right-width: 13px;
     display: none
@@ -3142,7 +3142,7 @@ select.wpforms-error:focus {
     padding: 5px 0;
     background: #fff;
     border: 1px solid #A9B3C1;
-    border-top: 4px solid #FF8400
+    border-top: 4px solid #4fcbde
 }
 
 .page-header-nav .sub-menu a {
@@ -3155,7 +3155,7 @@ select.wpforms-error:focus {
 
 .page-header-nav .sub-menu .current_page_item a,
 .page-header-nav .sub-menu a:hover {
-    color: #FF8400
+    color: #4fcbde
 }
 
 .page-header--extraspace {
@@ -3232,7 +3232,7 @@ screen and (min-width:64em) {
 
 .mobilemenu>ul>li:not(.page-header-nav-button):not(.page-header-nav-button--alt)>a.is_active,
 .mobilemenu>ul>li:not(.page-header-nav-button):not(.page-header-nav-button--alt)>a:hover {
-    color: #FF8400
+    color: #4fcbde
 }
 
 .mobilemenu>ul>li:not(.page-header-nav-button):not(.page-header-nav-button--alt)>a+span {
@@ -3268,7 +3268,7 @@ screen and (min-width:64em) {
 .mobilemenu .sub-menu .current_page_item a,
 .mobilemenu .sub-menu a:hover,
 .mobilemenu-wrap .close-button:hover {
-    color: #FF8400
+    color: #4fcbde
 }
 
 .mobilemenu-wrap {
@@ -3297,7 +3297,7 @@ screen and (min-width:64em) {
 }
 
 .mobilemenu-trigger:hover {
-    color: #FF8400
+    color: #4fcbde
 }
 
 .mobilemenu-trigger span {
@@ -3546,7 +3546,7 @@ screen and (min-width:64em) {
     left: 0;
     content: '+';
     font-weight: 700;
-    color: #FF8400
+    color: #4fcbde
 }
 
 .page-footer-cms .table-image-list {
@@ -3575,11 +3575,12 @@ screen and (min-width:64em) {
 }
 
 .banner {
-    position: relative
+    position: relative;
+    
 }
 
 .banner--bottom_border {
-    border-bottom: 10px solid #7CC4CF
+    border-bottom: 10px solid #4fcbde
 }
 
 .banner--content_on_right .banner-content-cms {
@@ -3676,7 +3677,7 @@ screen and (min-width:64em) {
     left: 0;
     content: '+';
     font-weight: 700;
-    color: #FF8400
+    color: #4fcbde
 }
 
 .orbit,
@@ -3704,7 +3705,7 @@ screen and (min-width:64em) {
     font-size: 60px;
     line-height: .9em;
     font-weight: 700;
-    color: #7CC4CF
+    color: #4fcbde
 }
 
 .banner-content-cms h2 {
@@ -3768,7 +3769,7 @@ screen and (min-width:64em) {
 
 .orbit-nav button.is-active,
 .orbit-nav button:hover {
-    color: #FF8400
+    color: #4fcbde
 }
 
 .orbit-nav button.is-active:before,
@@ -3780,7 +3781,7 @@ screen and (min-width:64em) {
     left: 0;
     right: 0;
     height: 6px;
-    background: #FF8400
+    background: #4fcbde
 }
 
 .orbit-cms {
@@ -3851,7 +3852,7 @@ screen and (min-width:64em) {
     left: 0;
     content: '+';
     font-weight: 700;
-    color: #FF8400
+    color: #4fcbde
 }
 
 .orbit-cms .table-image-list {
@@ -4114,7 +4115,7 @@ screen and (min-width:40em) {
     float: left;
     font-size: 64px;
     line-height: 1;
-    color: #7CC4CF
+    color: #4fcbde
 }
 
 .iconlist-article-cms {
@@ -4173,7 +4174,7 @@ screen and (min-width:40em) {
     left: 0;
     content: '+';
     font-weight: 700;
-    color: #FF8400
+    color: #4fcbde
 }
 
 .iconlist-article-cms .table-image-list {
@@ -4198,7 +4199,7 @@ screen and (min-width:40em) {
     line-height: 1.125;
     font-weight: 600;
     font-weight: 700;
-    color: #7CC4CF
+    color: #4fcbde
 }
 
 .iconlist-article-cms h3 {
@@ -4319,7 +4320,7 @@ screen and (min-width:40em) {
     left: 0;
     content: '+';
     font-weight: 700;
-    color: #FF8400
+    color: #4fcbde
 }
 
 .media-section-cms .table-image-list,
@@ -4473,7 +4474,7 @@ screen and (min-width:40em) {
     left: 0;
     content: '+';
     font-weight: 700;
-    color: #FF8400
+    color: #4fcbde
 }
 
 .section-content-cms .table-image-list {
@@ -4498,7 +4499,7 @@ screen and (min-width:40em) {
 
 .section-content--highlight {
     color: #fff;
-    background: #7CC4CF
+    background: #4fcbde
 }
 
 .section-content--highlight a {
@@ -4597,7 +4598,7 @@ screen and (min-width:40em) {
     left: 0;
     content: '+';
     font-weight: 700;
-    color: #FF8400
+    color: #4fcbde
 }
 
 .section-gallery-cms .table-image-list {
@@ -4629,7 +4630,7 @@ screen and (min-width:40em) {
 
 .section--highlight {
     color: #fff;
-    background: #7CC4CF
+    background: #4fcbde
 }
 
 .section--highlight a {
@@ -4668,7 +4669,7 @@ screen and (min-width:40em) {
     font-size: 20px;
     line-height: 1.35;
     font-weight: 700;
-    color: #7CC4CF
+    color: #4fcbde
 }
 
 .media-item-title a {
@@ -4699,7 +4700,7 @@ screen and (min-width:40em) {
 .fancy-section {
     padding: 20px 0;
     color: #fff;
-    background: #7CC4CF
+    background: #4fcbde
 }
 
 .fancy-section-img {
@@ -4895,7 +4896,7 @@ screen and (min-width:40em) {
     left: 0;
     content: '+';
     font-weight: 700;
-    color: #FF8400
+    color: #4fcbde
 }
 
 .quotation-content .table-image-list {
@@ -5007,7 +5008,7 @@ screen and (min-width:40em) {
     left: 0;
     content: '+';
     font-weight: 700;
-    color: #FF8400
+    color: #4fcbde
 }
 
 .team-header-cms .table-image-list {
@@ -5030,7 +5031,7 @@ screen and (min-width:40em) {
 .team-section-cms ul li:before,
 .team-section-item-cms ul li:before {
     content: '+';
-    color: #FF8400;
+    color: #4fcbde;
     top: 0;
     left: 0
 }
@@ -5579,7 +5580,7 @@ screen and (min-width:40em) {
     left: 0;
     content: '+';
     font-weight: 700;
-    color: #FF8400
+    color: #4fcbde
 }
 
 .contact-address-cms .table-image-list {
@@ -5777,3 +5778,21 @@ screen and (min-width:40em) {
 .tooltip-trigger.hover:after {
     display: block
 }
+
+
+
+.outer { 
+	width: 600px; 
+}
+
+
+#inner { 
+	width: 250px; 
+	margin: 0 ;
+	position: relative;
+	left: 20%;
+}
+
+
+
+// custom
