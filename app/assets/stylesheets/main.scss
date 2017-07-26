@@ -45,7 +45,7 @@ legend {
 .slide-out-left.mui-leave,
 .slide-out-right.mui-leave,
 .slide-out-up.mui-leave {
-    transition-duration: .5s;
+    transition-duration: .7s;
     transition-timing-function: linear;
     transition-property: transform, opacity;
     backface-visibility: hidden
@@ -2573,17 +2573,12 @@ select.wpforms-error:focus {
 }
 
 @font-face {
-    font-family: wellpass-icons;
-    src: url(fontello/font/wellpass-icons.eot?33442896);
-    src: url(fontello/font/wellpass-icons.eot?33442896#iefix) format("embedded-opentype"), url(fontello/font/wellpass-icons.woff2?33442896) format("woff2"), url(fontello/font/wellpass-icons.woff?33442896) format("woff"), url(fontello/font/wellpass-icons.ttf?33442896) format("truetype"), url(fontello/font/wellpass-icons.svg?33442896#wellpass-icons) format("svg");
     font-weight: 400;
     font-style: normal
 }
 
 @media screen and (-webkit-min-device-pixel-ratio:0) {
     @font-face {
-        font-family: wellpass-icons;
-        src: url(fontello/font/wellpass-icons.svg?33442896#wellpass-icons) format("svg")
     }
 }
 
@@ -3014,13 +3009,19 @@ select.wpforms-error:focus {
 
 .page-header-logo {
     float: left;
-    margin: 0
+    margin: 0;
+
+
+    
 }
 
 .page-header-logo a {
     display: block;
     line-height: 1;
-    padding: 16px 0 13px
+    padding: 16px 0 13px;
+        -ms-transform: scale(1.5) translateX(17%);
+        transform: scale(1.5) translateX(17%)
+    
 }
 
 .page-header-nav {
@@ -3182,20 +3183,10 @@ select.wpforms-error:focus {
     }
 }
 
-.page-header,
-.page-header.bigger {
-    transition: height .25s ease-out, padding .25s ease-out
-}
 
-.page-header-logo img,
-.page-header.bigger-logo img {
-    transition: transform .25s ease-out
-}
 
-.page-header--extraspace,
-.page-header.bigger--extraspace {
-    transition: height .25s ease-out
-}
+
+
 
 @media print,
 screen and (min-width:64em) {
@@ -3203,13 +3194,11 @@ screen and (min-width:64em) {
         height: 87px;
         padding-top: 10px
     }
-    .page-header.bigger .page-header-logo img {
-        -ms-transform: scale(1.5) translateX(17%);
-        transform: scale(1.5) translateX(17%)
+ .page-header-logo img {
+        -ms-transform: scale(1.2) translateX(17%);
+        transform: scale(1.2) translateX(17%)
     }
-    .page-header.bigger+.page-header--extraspace {
-        height: 87px
-    }
+    
 }
 
 .mobilemenu>ul>li {
@@ -3850,7 +3839,7 @@ screen and (min-width:64em) {
     position: absolute;
     top: 0;
     left: 0;
-    content: '+';
+    content: '✔️';
     font-weight: 700;
     color: #4fcbde
 }
@@ -4239,7 +4228,7 @@ screen and (min-width:40em) {
 .media-section-cms,
 .page-section,
 .page-section-cms {
-    padding: 30px 0
+    padding: 10px 0
 }
 
 .media-section-cms a:not(.button),
